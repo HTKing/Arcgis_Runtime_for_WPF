@@ -22,7 +22,7 @@ namespace runtime1207
 
         // Using a DependencyProperty as the backing store for layerType.  This enables animation, styling, binding, etc...
         public static readonly DependencyProperty layerTypeProperty =
-            DependencyProperty.Register("baidulayerType", typeof(string), typeof(ArcGISTiledGaodeLayer), new PropertyMetadata("road"));
+            DependencyProperty.Register("baidulayerType", typeof(string), typeof(ArcGISTiledBaiduLayer), new PropertyMetadata("road"));
 
 
         public override string GetTileUrl(int level, int row, int col)
